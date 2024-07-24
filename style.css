@@ -14,16 +14,15 @@ body {
 /* HEADER */
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 30px;
   border-bottom: 8px solid #846050;
   margin-bottom: 40px;
   padding: 16px;
 }
 h1 {
-  align-self: center;
+  margin: 0;
 }
 nav {
   justify-self: flex-end;
