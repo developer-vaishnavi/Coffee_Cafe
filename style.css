@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+/* ===================================== */
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 8px solid #542223;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+h1 {
+  align-self: center;
+}
+nav {
+  justify-self: flex-end;
+}
+
+/* ===================================== */
+
+/* ================================= */
+/* About Coffee */
+.about-coffee {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 60px;
+}
+.coffee-text {
+  padding: 10px;
+  align-self: center;
+}
+.coffee-text h1 {
+  margin-bottom: 32px;
+}
+.coffee-text p {
+  margin-bottom: 16px;
+}
+
+.coffee-snacks {
+  width: 100%;
+  height: 300px;
+}
+/* ==================================== */
+
+/* ========================================= */
+/* Feature Section */
+.sec-1 p {
+  margin: 16px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #542223;
+  padding: 16px;
+  margin-bottom: 60px;
+}
+
+.sec-1 {
+  background-color: white;
+  margin: 16px;
+}
+
+/* ============================= */
+/* ============================= */
+/* Info */
+
+.our-coffee {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.our-coffee img {
+  width: 100%;
+  height: 300px;
+}
+
+/* =========================================== */
+
+/* =============================== */
